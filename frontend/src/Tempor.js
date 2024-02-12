@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Form({ editMode, studentData, fetchData }) {
     const navigate = useNavigate();
-    const url = "http://localhost:5000/";
+    const url = "https://studentsprofile.onrender.com/";
 //   useEffect(() => {
 //     fetchData();
 //   }, []);

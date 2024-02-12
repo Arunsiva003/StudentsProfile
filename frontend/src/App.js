@@ -5,7 +5,7 @@ import Table from './Table';
 import Temper from './Tempor';
 import axios from 'axios';
 function App() {
-  const url =  "http://localhost:5000/";
+  const url =  "https://studentsprofile.onrender.com/";
   const [data, setData] = useState([]);
 
   useEffect(()=>{

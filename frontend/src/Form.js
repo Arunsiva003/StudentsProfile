@@ -6,7 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 function Form({data,setData}) {
     const params = useParams();
     const navigate = useNavigate();
-    const url = "http://localhost:5000/";
+    const url = "https://studentsprofile.onrender.com/";
     console.log(params.id);
     useEffect(() => {
         fetchData();

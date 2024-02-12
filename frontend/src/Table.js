@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 function Table () {
-    const url = "http://localhost:5000/";
+    const url = "https://studentsprofile.onrender.com/";
     const navigate = useNavigate();
 
     useEffect(() => {
