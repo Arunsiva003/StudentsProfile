@@ -273,7 +273,7 @@ function Form({data,setData}) {
 
   <button onClick={()=>navigate('/table')}>View Details</button>
 </form>
-      {data.length > 0 ? (
+      {/* {data.length > 0 ? (
         
         <table border={1}>
           <thead>
@@ -325,7 +325,7 @@ function Form({data,setData}) {
               <button onClick={()=>handleFilteredFetch("force")}>Codeforces</button>
 
             </div>
-          }
+          } */}
 
     </div>
   );
